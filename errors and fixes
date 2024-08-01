@@ -1,0 +1,15 @@
+
+
+
+1) this errror was because of versioning of chrome and chrome driver this is the most common error when im using selenium
+better to always use separate environments with auto updates tp chrome turned off for any longterm or important scripts. 
+
+
+      or we can just remove this casche file so its recreated with new and relevant info 
+
+       rm -rf ~/.wdm
+       
+#    stack overflow link for error handeling.
+     https://stackoverflow.com/questions/78789819/issue-with-selenium-and-webdriver/78811232
+
+actual error : Exec format error: '/Users/[USER]/.wdm/drivers/chromedriver/mac64/127.0.6533.72/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
